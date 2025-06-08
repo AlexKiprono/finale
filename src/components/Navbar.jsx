@@ -13,19 +13,19 @@ function Navbar() {
             {/* Left navigation (desktop) */}
             <div className="hidden md:flex space-x-4">
               <a
-                href="#"
+                href="#home"
                 className="text-sm font-medium text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md transition duration-300"
               >
                 Home
               </a>
               <a
-                href="#"
+                href="#about"
                 className="text-sm font-medium text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md transition duration-300"
               >
                 About
               </a>
               <a
-                href="#"
+                href="#services"
                 className="text-sm font-medium text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md transition duration-300"
               >
                 Services
@@ -56,19 +56,19 @@ function Navbar() {
             {/* Right navigation (desktop) */}
             <div className="hidden md:flex space-x-4">
               <a
-                href="#"
+                href="#testimonials"
                 className="text-sm font-medium text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md transition duration-300"
               >
                 Testimonials
               </a>
               <a
-                href="#"
+                href="#resources"
                 className="text-sm font-medium text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md transition duration-300"
               >
                 Resources
               </a>
               <a
-                href="#"
+                href="#contact"
                 className="text-sm font-medium text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md transition duration-300"
               >
                 Contact
